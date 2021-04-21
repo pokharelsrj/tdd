@@ -27,4 +27,9 @@ public class VowelCounterTest {
     {
         assertEquals(4,new VowelCounter().countVowel("aasdee"));
     }
+
+    @Test
+    public void checkBothUpperAndLowerCase(){
+        assertEquals(4,new VowelCounter().countVowel("AASDEE"));
+    }
 }
