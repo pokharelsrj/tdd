@@ -21,4 +21,10 @@ public class VowelCounterTest {
     {
         assertEquals(3,new VowelCounter().countVowel("aei"));
     }
+
+    @Test
+    public void checkMultipleVowelsAndConsonants()
+    {
+        assertEquals(4,new VowelCounter().countVowel("aasdee"));
+    }
 }
