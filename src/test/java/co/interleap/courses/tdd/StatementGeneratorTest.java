@@ -11,13 +11,13 @@ public class StatementGeneratorTest {
     @Test
     public void CabTravelsZeroKMInSomeMin()
     {
-        assertEquals(0,new StatementGenerator().cabFare(0,2));
+        assertEquals(2,new StatementGenerator().cabFare(0,2));
     }
 
     @Test
     public void CabTravelsSomeKMInZeroMin()
     {
-        assertEquals(0,new StatementGenerator().cabFare(3,0));
+        assertEquals(30,new StatementGenerator().cabFare(3,0));
     }
 
     @Test
